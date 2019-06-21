@@ -36,6 +36,13 @@ public class Utilities {
 					
 				}
 				
+				public static double getWin(){
+					return vincita;
+				}
+
+				public static boolean setWin(int num){
+					boolean check=false;
+				
 				
 		
 				
