@@ -9,7 +9,7 @@ public class Utilities {
 	public static void main(String[] args) {
 		
 <<<<<<< HEAD
-		public void actionPerformed(ActionEvent NONFUNZIONAERAMAI) {
+		public void actionPerformed(ActionEvent NONFUNZIONAERAMAIIIII) {
 			if (e.getSource()==b) {
 			System.exit(0);
 			}
