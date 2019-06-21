@@ -6,7 +6,7 @@ public class Utilities {
 	private static double vincite;
 	private static double vinceremo;
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) extends  {
 		
 <<<<<<< HEAD
 		public void actionPerformed(ActionEvent NONFUNZIONAERAMAIIIII) {
@@ -46,3 +46,8 @@ public class Utilities {
 	}
 
 }
+	
+	public setNome() {
+		abudabi
+	}
+	}
