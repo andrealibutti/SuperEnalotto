@@ -4,7 +4,7 @@ public class Utilities {
 
 	public static void main(String[] args) {
 		
-		public void actionPerformed(ActionEvent laallabldvlsada) {
+		public void actionPerformed(ActionEvent laallabldlsada) {
 			if (e.getSource()==b) {
 			System.exit(0);
 			}
