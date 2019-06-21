@@ -2,9 +2,13 @@
 
 public class Utilities {
 
+	private static double vincita;
+	private static double vincite;
+	private static double vinceremo;
 	public static void main(String[] args) {
 		
-		public void actionPerformed(ActionEvent laallabldlsghgda) {
+<<<<<<< HEAD
+		public void actionPerformed(ActionEvent NONFUNZIONAERAMAI) {
 			if (e.getSource()==b) {
 			System.exit(0);
 			}
@@ -35,6 +39,8 @@ public class Utilities {
 		
 				
 			}
+=======
+>>>>>>> branch 'master' of https://github.com/andrealibutti/SuperEnalotto.git
 		
 	}
 
