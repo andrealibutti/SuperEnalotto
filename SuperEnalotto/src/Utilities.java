@@ -1,9 +1,7 @@
 
 public class Utilities {
+	
+	private String supercalifragilistichespiralitoso;
 
-	public static void main(String[] args) {
-		
-		//PRova sa sa prova
-	}
 
 }
