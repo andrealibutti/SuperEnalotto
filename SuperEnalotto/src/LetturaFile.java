@@ -5,6 +5,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
+//skjbfkjsbrgòjkgel5kgrjbke
+
 public class LetturaFile {
 	
 	private String path;
