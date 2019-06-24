@@ -1,9 +1,7 @@
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Scanner;
 
 public class LetturaFile {
 	
@@ -53,16 +51,25 @@ public class LetturaFile {
 		}
 	}
 }
+
 	
-	/********************
+	/**************************************************
  		public static void main(String[] args){
 		
 		LetturaFile f = new LetturaFile();
 		
-		f.ReadFile("C:\\Users\\Sincrono\\Desktop\\bella.txt"); 
+		if(setPath("C:\\Users\\Sincrono\\Desktop\\"+ nomeFile +".txt")) {
+			
+			f.ReadFile("C:\\Users\\Sincrono\\Desktop\\"+ nomeFile +".txt"); 
+		}
+		else {
+			System.out.println("File inesistente");
+		}
+	**************************************************/
 		
-	}
-	*********************/
+
+
+
 
 	
 
