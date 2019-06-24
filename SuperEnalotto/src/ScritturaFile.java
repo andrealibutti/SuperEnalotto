@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.ArrayList;
 
 public class ScritturaFile {
 	
@@ -16,8 +17,7 @@ public class ScritturaFile {
 	
 	//Metodo scrittura file
 	
-	//DA AGGIUNGERE OGGETTO NEL COSTRUTTORE - TIPO DA DEFINIRE
-	public void scritturaFile(String nomeFile) {  
+	public void scritturaFile(ArrayList<String> a, String nomeFile) {  
 		try {
 			// Crea un nuovo file
 			File file = new File(path + nomeFile + ".txt");
@@ -27,8 +27,7 @@ public class ScritturaFile {
 				FileWriter fw = new FileWriter(file.getAbsoluteFile());
 				BufferedWriter bw = new BufferedWriter(fw);
 
-				bw.write(object.toString());  //DA AGGIUNGERE OGGETTO - TIPO DA DEFINIRE
-
+				bw.write(a.toString());  
 				bw.newLine();
 
 				bw.close();
@@ -37,8 +36,7 @@ public class ScritturaFile {
 				//Aggiunge riga in un file gia' esistente
 				PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(file, true)));
 
-				out.println(object.toString()); //DA AGGIUNGERE OGGETTO - TIPO DA DEFINIRE
-
+				out.println(a.toString()); 
 				out.close();
 
 			}
@@ -48,9 +46,9 @@ public class ScritturaFile {
 			System.err.println(e);
 		}
 	}
-
-	
-	
-	
-
 }
+	
+	
+	
+
+
